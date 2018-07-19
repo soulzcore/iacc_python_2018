@@ -5,7 +5,7 @@
 
 
 ```    
-	if expression:
+    if expression:
 	    "Execute this if expression  is true"
     else:
 	    "Execute this if expression is false"
@@ -13,7 +13,7 @@
 
  ```  
 
-	if expression a  :
+    if expression a  :
 	    "Execute this if expression a  is true"
     elif expression b :
 		   "Execute this if expression b is true"
@@ -24,7 +24,7 @@
 ```
 
 ![
-](link)
+](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/ifelse.png)
 
 
 
