@@ -9,6 +9,8 @@
 > Repeats a group of statements while a given condition is TRUE.
 > It tests the condition before executing the loop body.
 
+![
+](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/loops.png)
 
 ## Usage
 
@@ -31,8 +33,7 @@ while count < 5:
 
 The above example will print 0 to 4
 
-![
-](link)
+
 
 
 ## For Loop
@@ -40,6 +41,8 @@ The above example will print 0 to 4
 > Repeats or iterate over the items of any sequence, such as a list or a
 > string.
 
+![
+](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/loops2.png)
 
 ## Usage
 
@@ -64,5 +67,4 @@ for num in numList:
 
 The above example will print 0 to 4
 
-![
-](loop2)
+
