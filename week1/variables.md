@@ -21,7 +21,7 @@ Example :
 
 *Create a height variable :*
 
-	
+
     height_in_inches = 6;
 
 *Print height_in_inches variable*
