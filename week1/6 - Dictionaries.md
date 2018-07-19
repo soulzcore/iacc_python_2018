@@ -22,7 +22,7 @@
 >``` {‘state’:’Texas’, ‘city’:’Plano’, ‘seasons’:[‘Summer’,’Spring’]}```– a dict of 3 items where the last value is a list
 
 ![
-](link)
+](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/dict1.png)
 
     sample = {‘a’:’alpha’,’b’:’omega’,’g’:’gamma’}  
 
