@@ -98,7 +98,7 @@ print(menu.keys())
 5. *Does the restaurant have ‘Lemonade’ in the menu..?*
 
 ```python
-print(menu.has_key('Lemonade'))
+print('Fries' in menu)
 ```
 
 6. *How many items are in the menu*
