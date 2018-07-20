@@ -2,6 +2,7 @@
 
 # Conditional Statements
 
+> Conditional statememnts are used to alter the behaviour of the program based on certain conditions.
 
 
 ```    
