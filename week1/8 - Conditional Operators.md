@@ -32,9 +32,9 @@
 ## Logical Operators
 
 
-> ```x or y```  if x is false, then y, else x
+> ```x or y```  Evaluates to True if either x or y is True, False if both x and y are False
 >
-> ```x and y```  if x is false, then x, else y
+> ```x and y```  Evaluates to True if both x and y are Tue, else False
 >
 > ```not x```  if x is false, then True, else False
 
