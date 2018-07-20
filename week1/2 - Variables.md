@@ -9,59 +9,61 @@
 
 Example :
 
-    height_in_centimeters = height_in_inches * 2.54;
-
     height_in_inches = 6;
 
     height_in_inches = 5.8;
 
+    height_in_centimeters = height_in_inches * 2.54;
 
-# Exercise
+ 
 
 
-*Create a height variable :*
+# Exercises
+
+
+1. *Create a height variable*
 
 
     height_in_inches = 6;
 
-*Print height_in_inches variable*
+2. *Print height_in_inches variable*
 
 
 
     print height_in_inches;  
 
-*Create a formula to convert height in inches to height in centimeters*
+3. *Create a formula to convert height in inches to height in centimeters*
 >
 
 
 
     height_in_centimeters = height_in_inches * 2.54;
 
-*Print the height in centimeters*
+4. *Print the height in centimeters*
 
 
 
     print height_in_centimeters
 
-*Create variable to hold name of the training class :*
+5. *Create variable to hold name of the training class :*
 
 
 
     class_name = “Python”;
 
-*Create variable to hold todays date*
+6. *Create variable to hold todays date*
 
 
 
     todays_date = “07/29/2017”
 
-*Create variables to hold number of students*
+7. *Create variables to hold number of students*
 
 
 
     no_of_students = 40;
 
-*Print the sentence ‘On 07/29/2017, the Python class had 40 students*
+8. *Print the sentence ‘On 07/29/2017, the Python class had 40 students*
 
 
 
