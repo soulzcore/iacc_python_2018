@@ -55,7 +55,7 @@ def add_numbers(x , y):
 add_numbers(4,5)
 
 ```
-**Variable Scope**
+# Variable Scope
 
 **Local Variables**
 
