@@ -24,7 +24,7 @@ def functionname(arg1,arg2,arg3):
 #newFile.py
 import testModule;
 
-testModule.functionname(‘value1’,value2,[1,2,3])
+testModule.functionname('value1',value2,[1,2,3])
 
 ```
 
@@ -38,11 +38,11 @@ def convertInchesToCentimeter(height_in_inches):
 ```
 ```python
 #newFile.py
-import testModule
+from week1.testModule as testModule
 
-height = raw_input(‘Enter height in inches >>>’);
+height = input('Enter height in inches >>>');
 height_in_centimeters = testModule.convertInchesToCentimeter(height);
-print(‘Height in centimeters  : ’, height_in_centimeters);
+print('Height in centimeters  : ', height_in_centimeters);
 
 ```
 
@@ -52,12 +52,13 @@ print(‘Height in centimeters  : ’, height_in_centimeters);
 import time as dt
 
 #print current time
-print dt.strftime("%c")
+print(dt.strftime("%c"))
+
 #Tell the program to sleep for 10 seconds
 dt.sleep(10)
+
 #Execution from here will be resumed after 10 seconds
-print dt.strftime("%c")
-```
+print(dt.strftime("%c"))
 
 
 **PyPi**
