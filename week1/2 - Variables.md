@@ -30,7 +30,7 @@ Example :
 
 ```python
 
-    print height_in_inches;  
+    print(height_in_inches);  
 ```
 3. Create a formula to convert height in inches to height in centimeters
 
@@ -45,7 +45,7 @@ Example :
 
 ```python
 
-    print height_in_centimeters
+    print(height_in_centimeters)
     
 ```
 
@@ -75,6 +75,6 @@ Example :
 
 ```python
 
-    print (“On ” + todays_date + “the Python class had ” + no_of_students + “ students”)
+    print(“On ” + todays_date + “the Python class had ” + no_of_students + “ students”)
     
 ```
