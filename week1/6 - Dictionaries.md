@@ -21,10 +21,14 @@
 >
 >``` {'state':'Texas', 'city':'Plano', 'seasons':['Summer','Spring']}```– a dict of 3 items where the last value is a list
 
+
+
 ![
 ](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/dict1.png)
 
     sample = {'a':'alpha','b':'omega','g':'gamma'}  
+    
+    
 
 **Accessing items in the dict**
 
@@ -82,7 +86,7 @@ print(menu)
 3. *Print the price of a Cheese Burger*
 
 ```python
-print(menu[‘Cheese Burger’])
+print(menu['Cheese Burger'])
 ```
 
 4. *Print all items in the menu*
@@ -94,7 +98,7 @@ print(menu.keys())
 5. *Does the restaurant have ‘Lemonade’ in the menu..?*
 
 ```python
-print(menu.has_key(‘Lemonade'))
+print(menu.has_key('Lemonade'))
 ```
 
 6. *How many items are in the menu*
