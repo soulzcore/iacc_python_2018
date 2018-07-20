@@ -111,53 +111,66 @@ print(max(nums))
 
 1.	*Create a list of major cities cities in the US and name it cityList*
 
-```cityList = ["New York","Chicago","LA"]```
+```python
+cityList = ["New York","Chicago","LA"]
+```
 
 2.	*Print cityList*
 
-```print(cityList)```
+```python
+print(cityList)
+```
 
 3.	Print the first city from the list
 
-```print(cityList[0]) ```
+```python
+print(cityList[0])
+```
 
 4. *Print last city from the list*
 
-```print(cityList[-1])```
+```python
+print(cityList[-1])
+```
 
 5. *Add Houston and Dallas to the list and print the new list*
 
-```
+```python
 cityList.append("Houston");
 cityList.append("Dallas");
 print cityList;
 ```
 6. *Add Boston after LA in the list and print it*
 
-```cityList.insert(3,"Boston")
+```python
+cityList.insert(3,"Boston")
 print cityList;
 ```
 
 7. *Find the rank of Houston in the list*
 
-```print(cityList.index("Houston"));```
+```python
+print(cityList.index("Houston"));
+```
 
 8. *Add Toronto to the end of the list and print it*
 
-```
+```python
 cityList.append("Toronto")
 print cityList;
 ```
 
 9. *Totonto is not a city in the US, lets remove it and print the list*
 
-```
+```python
 cityList.remove("Toronto");
 print cityList;
 ```
 
 10.  *Find the number of cities in the list*
 
-```print(len(cityList))```
+```python
+print(len(cityList))
+```
 
 
