@@ -152,7 +152,7 @@ input(‘What is your name? >> ‘)
 > The variable can be used just like any other variable in python.
 
 ```python
-name = raw_input(‘What is your name? >>’);
+name = input(‘What is your name? >>’);
 print(name);
 ```
 
