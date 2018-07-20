@@ -50,6 +50,12 @@
 > Represented by `complex`
 
 
+# Booleans
+
+> A boolean data type can only have 2 possible values `True` or `False`
+> They can be represented by `1` or `0` . 1 for True and 0 for False
+
+
 
 
 # Exercises
