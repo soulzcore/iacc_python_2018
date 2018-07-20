@@ -46,6 +46,9 @@
 
 
 
+![List Slicing](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/listslicing.jpg)
+
+
 > Items can be inserted, removed or replaced in a list using standard
 > methods provided by python
 
