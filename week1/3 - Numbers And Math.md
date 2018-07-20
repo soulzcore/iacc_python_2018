@@ -52,7 +52,7 @@
 
 
 
-# Exercise
+# Exercises
 
  1. *Calculate and Print the value of 2+3-1-4*
 
@@ -68,18 +68,14 @@
 
 4. *How much percent is 40% of 200?*
 
-`Print “How much percent is 40% of 200??”,(40*200)/100`
+`print("How much percent is 40% of 200??"),(40*200)/100`
 
 5.	*If x is 250 and y is 700, how much percentage of y is x..?*
 
 ```
 x = 250;
-
 y = 750;
-
 z = (100 * x ) / y;
-
 print(z);
 ```
 
-[Official Documentation ](https://docs.python.org/2/library/stdtypes.html#numeric-types-int-float-long-complex)
