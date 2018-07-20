@@ -39,7 +39,9 @@ Example :
 
     # this is the first comment
 
-> text = "# This is not a comment because it's inside quotes.“
+```python
+text = "# This is not a comment because it's inside quotes.“
+```
 
 > Multiline comments can be created by triple quoted strings
 
