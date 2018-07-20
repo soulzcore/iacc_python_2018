@@ -17,6 +17,7 @@
 **Usage**
 
 ```python
+#Defining function called custom_function_name
 def custom_function_name():
 	'Statement 1'
 	'Statement 2'
@@ -40,10 +41,24 @@ def add_numbers():
 
     add_numbers()
 
-> Functions can accept input parameters and can return an output value.
-> Functions can accept multiple input parameters which can passed as a
+**Arguments**
+
+> Functions can accept multiple input parameters( arguments ) which can be passed as 
 > comma separated values within the parenthesis after the function name.
-> A value can be returned using the return keyword.
+> The arguments can be used as variables within the function’s definition
+>The arguments can be of any type
+
+**Usage**
+```python
+#Defining function named functionname
+def functionname(arg1,arg2,arg3):
+	"statement1"
+	"statement2"
+
+#Calling finctioname
+functionname(‘value1’,value2,[1,2,3])
+
+```
 
 **Example**
 
@@ -55,6 +70,28 @@ def add_numbers(x , y):
 add_numbers(4,5)
 
 ```
+
+**Return Values**
+
+> Functions can return values back to the statement from where the
+> function is called.
+> The values returned can be of any type including `None`
+> The keyword `return` is used for returning values
+
+**Usage**
+
+```python
+#Defining function named functionname
+def functionname(arg1,arg2,arg3):
+	"statement1"
+	"statement2"
+	return "value";
+
+#Calling functioname, the result of the statement below will be same as ‘value’ which was returned in the function
+result = functionname(‘value1’,value2,[1,2,3])
+
+```
+
 # Variable Scope
 
 **Local Variables**
@@ -80,9 +117,54 @@ add_numbers()
 #This will throw an error
 print(x)
 ```
+# Built in Function - Input
+
+**Providing input via the console**
+
+> Raw Input is a Python built in function ( more to come on this later
+
+> ).  It presents a prompt to the user during runtime, gets input from
+> the user and presents it to the program as a string.
+
+**Usage**
+
+```python
+input(‘What is your name? >> ‘)
+```
+
+> When this statement is executed, you would notice the string ‘What is
+> your name? >> ‘ appear on the console.
+
+> If you click or press any key, a cursor will show up.
+ 
+> Now, the console is ready to accept your input.
+
+> Enter any string and hit the ENTER key.
+ 
+> This will signal the console to pass on your input to the program or
+> more specifically the raw_input statement
+
+> The raw_input statement can be assigned to a variable.
+
+> After the raw_input executes, it will result in the variable being
+> assigned the value which was entered via the console
+
+> The variable can be used just like any other variable in python.
+
+```python
+name = raw_input(‘What is your name? >>’);
+print(name);
+```
+
+# Recursive Functions
+
+> Recursive functions are functions which call themselves
+
+> Make sure there is some sort of exit condition to prevent getting
+> into an infinite loop
 
 
-**Exercise**
+# Exercise
 
 1. Create a function to convert height given in feet to inches ( 1 ft = 12 in )
 ```python
@@ -98,4 +180,7 @@ height_in_inches = convert_height(7)
 print("Height in inches : ", height_in_inches)
 ```
 
-	
+2. Write a program to accept multiple lines using input
+3. Create a function to accept two strings and print the string created by concatenating the two 
+4. Write a program to generate the Fibonacci sequence of 10 numbers
+5. Password strength checker : Create a function to accept a string  and verify if it conforms to the following format – between 8 to 12 characters long, atleast 1 upper case character, atleast 1 number and 1 special character which can be one of ’@,#,$,% or &’
