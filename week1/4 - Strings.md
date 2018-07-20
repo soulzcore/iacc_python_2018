@@ -25,12 +25,26 @@
 > **Isdigit** - Returns true if string contains only digits
 >
 
+**Example**
 
-## String Functions
+```python
+city = "plano"
+cityCapitalize = city.capitalize()
+print(city_capitalize)
+```
 
->
+## Built in Functions
+
+
 > **Len** – returns the length of the string
 
+**Example**
+
+```python
+city = plano
+cityLength = len(city)
+print(cityLength)
+```
 
 ## Exercise
 
