@@ -121,7 +121,7 @@ print(x)
 
 **Providing input via the console**
 
-> Raw Input is a Python built in function
+> Input is a Python built in function
 
 >It presents a prompt to the user during runtime, gets input from
 > the user and presents it to the program as a string.
@@ -129,7 +129,7 @@ print(x)
 **Usage**
 
 ```python
-input(‘What is your name? >> ‘)
+input('What is your name? >> ')
 ```
 
 > When this statement is executed, you would notice the string ‘What is
@@ -142,17 +142,17 @@ input(‘What is your name? >> ‘)
 > Enter any string and hit the ENTER key.
  
 > This will signal the console to pass on your input to the program or
-> more specifically the raw_input statement
+> more specifically the input statement
 
-> The raw_input statement can be assigned to a variable.
+> The input statement can be assigned to a variable.
 
-> After the raw_input executes, it will result in the variable being
+> After the input executes, it will result in the variable being
 > assigned the value which was entered via the console
 
 > The variable can be used just like any other variable in python.
 
 ```python
-name = input(‘What is your name? >>’);
+name = input('What is your name? >> ');
 print(name);
 ```
 
