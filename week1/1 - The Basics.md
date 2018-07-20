@@ -16,18 +16,18 @@ Usage :
     print("something");
 
 > Something could be any data type
+    
+> Strings within quotes will be printed
+
+> Numbers do not have to be in quotes
 
 Example :
-
-    print("Strings within quotes will be printed")
-
-    print("Numbers do not have to be in quotes")
 
     print(12)
 
 
 
-# Comments :
+# Comments
 
 
 
