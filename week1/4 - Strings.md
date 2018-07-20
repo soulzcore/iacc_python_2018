@@ -30,7 +30,7 @@
 ```python
 city = "plano"
 cityCapitalize = city.capitalize()
-print(city_capitalize)
+print(cityCapitalize)
 ```
 
 ## Built in Functions
@@ -41,7 +41,7 @@ print(city_capitalize)
 **Example**
 
 ```python
-city = plano
+city = "plano"
 cityLength = len(city)
 print(cityLength)
 ```
