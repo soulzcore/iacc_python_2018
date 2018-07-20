@@ -23,7 +23,6 @@ Example :
 
 1. *Create a height variable*
 
-
     height_in_inches = 6;
 
 2. *Print height_in_inches variable*
