@@ -74,7 +74,19 @@
 >
 > **count** : Count the number of times an item appears in the list
 
+**Example**
 
+```python
+#Create a list of random numbers
+nums = [5,9,4,3,4]
+#Count the number of times 4 appears in the list
+print(nums.count(4))
+
+#Reverse the list and print it
+nums.reverse()
+print(nums)
+
+```
 
 ## Built in Functions
 
@@ -85,7 +97,13 @@
 >
 > **min** : get the item with the lowest value
 
+**Example**
 
+```python
+
+#Get the max number in the list
+print(max(nums))
+```
 
 
 # Exercise
