@@ -27,20 +27,22 @@
 
 ![List](https://github.com/soulzcore/iacc_python_2018/raw/master/week1/images/lists.png)
 
-    colors = [“red”,”blue”,”green”]
+    colors = ["red","blue","green"]
 
 
 ## **Accessing items in the list :**
 
     colors[0] -> This will represent “red”
 
-    Colors[1] -> This will represent “blue”
+    colors[1] -> This will represent “blue”
 
-    Colors[:] -> [“red”,”blue”,”green”]
+    colors[:] -> ["red","blue","green"]
 
-    Colors[1:2] -> [“blue”,”green”]
+    colors[1:2] -> ["blue"]
 
-    Colors[:1] Colors = [“red”]
+    colors[:1] -> ["red"]
+    
+    colors[-1] -> ["green"]
 
 
 
@@ -51,34 +53,34 @@
 
 ## Common list methods
 
-> **Append** : add to the end of the list
+> **append** : add to the end of the list
 >
-> **Insert** : add at a specific location of the list
+> **insert** : add at a specific location of the list
 >
-> **Pop** : remove and return item from the list
+> **pop** : remove and return item from the list
 >
-> **Remove** : remove an item from the list
+> **remove** : remove an item from the list
 >
-> **Extend** : add list of elements at the end
+> **extend** : add list of elements at the end
 >
-> **Sort** : sort the list
+> **sort** : sort the list
 >
-> **Reverse** : reverse the list
+> **reverse** : reverse the list
 >
-> **Index** : return the lowest index where a item appears
+> **index** : return the lowest index where a item appears
 >
-> **Count** : Count the number of times an item appears in the list
+> **count** : Count the number of times an item appears in the list
 
 
 
 ## Built in Functions
 
 
-> **Len** : Get the number of items in the list
+> **len** : Get the number of items in the list
 >
-> **Max** : get the item with the max value
+> **max** : get the item with the max value
 >
-> **Min** : get the item with the lowest value
+> **min** : get the item with the lowest value
 
 
 
@@ -88,7 +90,7 @@
 
 1.	*Create a list of major cities cities in the US and name it cityList*
 
-```cityList = [“New York”,”Chicago”,”LA”]```
+```cityList = ["New York","Chicago","LA"]```
 
 2.	*Print cityList*
 
@@ -105,31 +107,31 @@
 5. *Add Houston and Dallas to the list and print the new list*
 
 ```
-cityList.append(“Houston”);
-cityList.append(“Dallas”);
+cityList.append("Houston");
+cityList.append("Dallas");
 print cityList;
 ```
 6. *Add Boston after LA in the list and print it*
 
-```cityList.insert(3,”Boston”)
+```cityList.insert(3,"Boston")
 print cityList;
 ```
 
 7. *Find the rank of Houston in the list*
 
-```print(cityList.index(“Houston”));```
+```print(cityList.index("Houston"));```
 
 8. *Add Toronto to the end of the list and print it*
 
 ```
-cityList.append(“Toronto”)
+cityList.append("Toronto")
 print cityList;
 ```
 
 9. *Totonto is not a city in the US, lets remove it and print the list*
 
 ```
-cityList.remove(“Toronto”);
+cityList.remove("Toronto");
 print cityList;
 ```
 
@@ -137,4 +139,4 @@ print cityList;
 
 ```print(len(cityList))```
 
-[Official List Documentation](https://docs.python.org/2/library/stdtypes.html#sequence-types-str-unicode-list-tuple-bytearray-buffer-xrange)
+
