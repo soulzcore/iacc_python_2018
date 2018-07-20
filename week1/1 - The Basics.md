@@ -4,7 +4,7 @@
 
 
 
-## The Print Statement :
+## The Print Statement
 
 
 
@@ -13,15 +13,15 @@
 
 Usage :
 
-    print(“something”);
+    print("something");
 
 > Something could be any data type
 
 Example :
 
-    print(“Strings within quotes will be printed”)
+    print("Strings within quotes will be printed")
 
-    print(“Numbers do not have to be in quotes”)
+    print("Numbers do not have to be in quotes")
 
     print(12)
 
@@ -58,7 +58,7 @@ Example :
 
 
 
-    print(”Zain”);  
+    print("Zain");  
 
 > Print the current year
 
@@ -66,4 +66,4 @@ Example :
 
 > Print  todays full date
 
-      print(“07/21”);
+      print("07/21/2018");
