@@ -29,8 +29,8 @@ def custom_function_name():
 ```python
 def add_numbers():
 	x = 4;
-    y = 5;
-    sum = x + y;
+	y = 5;
+	sum = x + y;
 	print(sum)
 ```
 
@@ -65,7 +65,7 @@ functionname(‘value1’,value2,[1,2,3])
 ```python
 def add_numbers(x , y):
     sum = x + y;
-	return sum
+    return sum
 
 add_numbers(4,5)
 
@@ -87,8 +87,8 @@ def functionname(arg1,arg2,arg3):
 	"statement2"
 	return "value";
 
-#Calling functioname, the result of the statement below will be same as ‘value’ which was returned in the function
-result = functionname(‘value1’,value2,[1,2,3])
+#Calling functioname, the result of the statement below will be same as 'value' which was returned in the function
+result = functionname('value1',value2,[1,2,3])
 
 ```
 
@@ -121,9 +121,9 @@ print(x)
 
 **Providing input via the console**
 
-> Raw Input is a Python built in function ( more to come on this later
+> Raw Input is a Python built in function
 
-> ).  It presents a prompt to the user during runtime, gets input from
+>It presents a prompt to the user during runtime, gets input from
 > the user and presents it to the program as a string.
 
 **Usage**
@@ -163,6 +163,25 @@ print(name);
 > Make sure there is some sort of exit condition to prevent getting
 > into an infinite loop
 
+**Eaxmple**
+
+```python
+#Define a function
+def calculateFactorial(n):
+
+    #Check to see if the number is 1 and return 1, since 1! is always 1
+    if n == 1:
+        return 1
+
+    #If the number passed to the function is not 1, calculate (n-1)! and multiple it to the number
+    else:
+        return n * calculateFactorial(n - 1)
+
+#Calculate the factorial of 3
+factorial = calculateFactorial(3)
+print(factorial)
+
+```
 
 # Exercise
 
