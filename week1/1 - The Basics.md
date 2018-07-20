@@ -51,9 +51,8 @@ text = "# This is not a comment because it's inside quotes.“
     Multi line comment
     '''
 
-**
 
-# Exercise :
+# Exercise
 
 
 > Print your name
