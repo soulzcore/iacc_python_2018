@@ -14,7 +14,7 @@
 ## Sample String Methods
 
 
-> **Capitalize** – capitalizes the first letter of the string
+> **capitalize** – capitalizes the first letter of the string
 >
 > **Isalnum** - Returns true if string has at least 1 character and all
 > characters are alphanumeric.
