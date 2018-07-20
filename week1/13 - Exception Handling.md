@@ -12,7 +12,7 @@
 **Example**
 
 ```python
-print ‘2’ + 2;
+print('2' + 2);
 ```
 Running the code above return the following error :
 
@@ -203,5 +203,4 @@ assert SomeCondition, “fail message”
 assert 2 + 2 == 5, “No, 2 plus 2 is not equal to 5"
 
 ```
-[
-Official Documentation](https://docs.python.org/2.7/library/exceptions.html#bltin-exceptions)
+
