@@ -4,13 +4,14 @@
 # Data Structures - Lists
 
 > List is a collection of 0 or more items or objects.
->
+
 > Square bracket is used to represent a list
->
+
 > Item position numbers are called index
->
+
 > Index starts from 0
 
+**Usage**
 
 > ```[ ]``` – Empty List
 >
