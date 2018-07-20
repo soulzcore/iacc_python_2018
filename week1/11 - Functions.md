@@ -82,7 +82,7 @@ print(x)
 ```
 
 
-Exercise
+**Exercise**
 
 1. Create a function to convert height given in feet to inches ( 1 ft = 12 in )
 ```python
