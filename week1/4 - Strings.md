@@ -16,13 +16,13 @@
 
 > **capitalize** – capitalizes the first letter of the string
 >
-> **Isalnum** - Returns true if string has at least 1 character and all
+> **isalnum** - Returns true if string has at least 1 character and all
 > characters are alphanumeric.
 >
-> **Isalpha** - Returns true if string has at least 1 character and all
+> **isalpha** - Returns true if string has at least 1 character and all
 > characters are alphabetic
 >
-> **Isdigit** - Returns true if string contains only digits
+> **isdigit** - Returns true if string contains only digits
 >
 
 **Example**
@@ -36,7 +36,7 @@ print(cityCapitalize)
 ## Built in Functions
 
 
-> **Len** – returns the length of the string
+> **len** – returns the length of the string
 
 **Example**
 
