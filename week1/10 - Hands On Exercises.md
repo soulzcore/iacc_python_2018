@@ -21,9 +21,9 @@ numList = [1,12,5,7,8,9,12,4,8];
 newList = [];
 for num in numList:
 	if num < 10:
-	print num;
-	newList.append(num);
-print newList;
+	    print(num);
+	    newList.append(num);
+print(newList);
 
 ```
 
@@ -34,12 +34,12 @@ word = 'abc'
 letters = list(word)
 is_palindrome = True
 for letter in letters:
-	if letter == letters[-1]:
-	letters.pop(-1)
-else:
-	is_palindrome = False
-	break
-print is_palindrome
+    if letter == letters[-1]:
+	    letters.pop(-1)
+    else:
+	    is_palindrome = False
+	    break;
+print(is_palindrome)
 ```
 4. *Write a python program to sum all the items in a list*
 
