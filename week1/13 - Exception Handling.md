@@ -111,36 +111,43 @@ Finally:
 ***Example***
 
 ```python
-var = raw_input('Enter a random number >>> ');
+var = input('Enter a random number >>> ');
+
+
 def div(var):
-	print 10 * (1/int(var));
+    print(10 * (1 / int(var)));
+
+
 def prnt(var_name):
-	print 4 + var_name*3;
+    print(4 + var_name * 3);
+
+
 def add(var):
-	print var + 2;
+    print(var + 2);
+
 
 try:
-	div(var)
-	prnt(var)
-	add(var)
+    div(var)
+    prnt(var)
+    add(var)
 
 except ZeroDivisionError:
-	print("Error : Somebody tried to divide by 0")
+    print("Error : Somebody tried to divide by 0")
 
 except NameError:
-	print("Error : Variable does not exist")
+    print("Error : Variable does not exist")
 
 except TypeError:
-	print("Error : Somebody is trying to add a number and a string!")
+    print("Error : Somebody is trying to add a number and a string!")
 
 except:
-	print("Error : Something got messed up and I am not sure what!")
+    print("Error : Something got messed up and I am not sure what!")
 
 else:
-	print("All statements were successful")
+    print("All statements were successful")
 
 finally:
-	print("I will always be here!")
+    print("I will always be here!")
 
 ```
 
