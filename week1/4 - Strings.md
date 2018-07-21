@@ -60,7 +60,7 @@ print(phone_number);
 
 ```
 is_a_number = phone_number.isdigit();
-print is_a_number;
+print(is_a_number);
 ```
 
 3. *Find the number of digits in the phone number*
