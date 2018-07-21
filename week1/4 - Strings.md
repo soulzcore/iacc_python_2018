@@ -71,4 +71,3 @@ print(no_of_digits);
 ```
 
 
-[Official Documentation](https://docs.python.org/2/library/stdtypes.html#string-methods)
