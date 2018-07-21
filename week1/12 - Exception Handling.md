@@ -200,14 +200,15 @@ except NameError:
 **Usage**
 
 ```python
-assert SomeCondition, “fail message”
+assert SomeCondition, "fail message"
 ```
 
 **Example**
 
 ```python
 #This is an assertion
-assert 2 + 2 == 5, “No, 2 plus 2 is not equal to 5"
+assert 2 + 2 == 5, 'No, 2 plus 2 is not equal to 5'
+
 
 ```
 
