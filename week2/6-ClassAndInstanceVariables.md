@@ -127,7 +127,7 @@ print('Number of dogs :', dog.no_of_dogs)
 
 ```
 
-**Create a class to define a car with the following :
+**Create a class to define a car with the following :**
  * The class should have atleast 1 class variable ( think of an attribute which remains the same across all cars ).
  * A car should require the attributes ‘Make,Model,Year,Color, Engine’
  * Create a method ‘start’ to start the car. When the method is called, the car’s ‘status’ attribute should be ‘ON’
@@ -139,4 +139,4 @@ print('Number of dogs :', dog.no_of_dogs)
  * The car cant be started if its already ON
  * The car cant accelerate, decelerate, break or turned OFF if its not ON
  * Maximum speed of the car is 130
- * The car cant decelerate if the speed is 0**
+ * The car cant decelerate if the speed is 0
