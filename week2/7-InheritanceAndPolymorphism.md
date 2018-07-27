@@ -145,7 +145,7 @@ cat1.makeNoise()
 ```
 
 
-**Multiple Inheritance**
+# Multiple Inheritance
 
 > A class can inherit from multiple classes
 
