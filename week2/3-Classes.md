@@ -81,7 +81,7 @@ dog2 = dog()
 
 #Get the description of the class dog and print it
 dog2_class_description = dog2.__doc__
-print(dog1_class_description)
+print(dog2_class_description)
 
 #Get the attribute breed of dog2 and print it
 dog2_breed = dog2.breed
