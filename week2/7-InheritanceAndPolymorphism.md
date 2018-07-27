@@ -205,7 +205,7 @@ class CameraPhone(ClassicPhone,Camera):
       self.model = model
 
 #Create a new iphone 6 object from CameraPhone class
-iphone6 = CameraPhone('Apple', 'iphone
+iphone6 = CameraPhone('Apple', 'iphone')
 
 #Call MakePhoneCall method
 iphone6.makePhoneCall()
