@@ -27,7 +27,7 @@ methodName(arg1,arg2)
 **Example**
 ```python
 #Create class dog, this can be used to create multiple dog objects
-class dog:
+class Dog:
     'This class represents a dog'
     #Class variable or attribute name to hold the dogs breed
     breed = 'Rocky'
@@ -37,7 +37,7 @@ class dog:
         print('Bow Wow!!')
 
 #Create an instance of the dog and call it dog1, dog1 is a new object created from the dog class
-dog1 = dog()
+dog1 = Dog()
 
 #Get the description of the class dog and print it
 dog1_class_description = dog1.__doc__
