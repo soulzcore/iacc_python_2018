@@ -12,17 +12,17 @@
 
 **Usage**
 ```python
-class className :
+class ClassName :
     ‘Class description and documentation’
     #variables/attribute/property
     var = ‘sample variable’
 
 ```
-> An instance of the class can be created or instantiated using the systax : ``` class className() ```
+> An instance of the class can be created or instantiated using the systax : ``` class ClassName() ```
 
 > The instance can be assigned to a variable
 
-> Example : ``` class_var = className() ```
+> Example : ``` class_var = ClassName() ```
 
 > ``` class_var``` represents an instance of the class or an object
 
@@ -35,13 +35,13 @@ class className :
 **Example**
 ```python
 #Create class dog, this can be used to create multiple dog objects
-class dog:
+class Dog:
     'This class represents a dog'
     #Class variable or attribute name to hold the dogs breed
     breed = 'Bulldog'
 
 #Create an instance of the dog and call it dog1, dog1 is a new object created from the dog class
-dog1 = dog()
+dog1 = Dog()
 
 #Get the description of the class dog and print it
 dog1_class_description = dog1.__doc__
@@ -59,13 +59,13 @@ print('Dog1\'s breed is : ' + dog1_breed)
 
 
 #Create class dog, this can be used to create multiple dog objects
-class dog:
+class Dog:
     'This class represents a dog'
     #Class variable or attribute name to hold the dogs breed
     breed = 'Bulldog'
 
 #Create an instance of the dog and call it dog1, dog1 is a new object created from the dog class
-dog1 = dog()
+dog1 = Dog()
 
 #Get the description of the class dog and print it
 dog1_class_description = dog1.__doc__
@@ -77,7 +77,7 @@ print('Dog1\'s breed is : ' + dog1_breed)
 
 
 #Create 2nd dog object called dog2
-dog2 = dog()
+dog2 = Dog()
 
 #Get the description of the class dog and print it
 dog2_class_description = dog2.__doc__
