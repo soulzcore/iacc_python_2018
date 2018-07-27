@@ -18,19 +18,19 @@ class className :
     var = ‘sample variable’
 
 ```
-> An instance of the class can be created or instantiated using the systax : ```python className() ```
+> An instance of the class can be created or instantiated using the systax : ``` class className() ```
 
 > The instance can be assigned to a variable
 
-> Example : ```python class_var = className() ```
+> Example : ``` class_var = className() ```
 
-> ```python class_var``` represents an instance of the class or an object
+> ``` class_var``` represents an instance of the class or an object
 
 > Class attributes can be accessed using the dot operator
 
-> Example : ```python class_var.__doc__ ``` gets the description of the class
+> Example : ``` class_var.__doc__ ``` gets the description of the class
 
-> ```python class_var.var ``` represents the variable ```python var ``` defined in the class with the value of ```python 'sample variable' ```
+> ``` class_var.var ``` represents the variable ``` var ``` defined in the class with the value of ``` 'sample variable' ```
 
 **Example**
 ```python
