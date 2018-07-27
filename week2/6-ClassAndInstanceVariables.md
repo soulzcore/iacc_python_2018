@@ -89,7 +89,7 @@ print('Name of Dog2 : ' + dog2.name)
 
 # Exercises
 
-**Write a python program to create dogs from a dog class and count the number of dogs created**
+1) **Write a python program to create dogs from a dog class and count the number of dogs created**
 
 ```python
 
@@ -127,7 +127,7 @@ print('Number of dogs :', dog.no_of_dogs)
 
 ```
 
-**Create a class to define a car with the following :**
+2) **Create a class to define a car with the following :**
  - **The class should have atleast 1 class variable ( think of an    attribute which remains the same across all cars )**
 -  **A car should require the attributes 'Make,Model,Year,Color, Engine'**
 - **Create a method ‘start’ to start the car. When the method is called, the car’s ‘status’ attribute should be ‘ON’**
