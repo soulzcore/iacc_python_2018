@@ -26,7 +26,7 @@ def __init__(self,arg1,arg2..):
 ```python
 
 #Create class dog, this can be used to create multiple dog objects
-class dog:
+class Dog:
     'This class represents a dog'
     #Class variable or attribute name to hold the dogs name
     breed = 'Bulldog'
@@ -37,9 +37,9 @@ class dog:
         print('Dog Object created')
 
 #Create an object dog1 from dog
-dog1 = dog()
+dog1 = Dog()
 
 #Create an object dog2 from dog
-dog2 = dog()
+dog2 = Dog()
 
 ```
