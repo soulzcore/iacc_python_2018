@@ -104,25 +104,25 @@ class Dog:
     def __init__(self,name):
         print('Dog Object created')
         self.name = name
-        dog.no_of_dogs = dog.no_of_dogs + 1
+        Dog.no_of_dogs = Dog.no_of_dogs + 1
 
 
 
 #Assert if no dog instances created
-assert dog.no_of_dogs == 0, 'Number of dogs are not 0'
+assert Dog.no_of_dogs == 0, 'Number of dogs are not 0'
 
 #Create dog1
 dog1 = Dog('Buddy')
 #print no of dogs, should be 1
-print('Number of dogs :', dog.no_of_dogs)
+print('Number of dogs :', Dog.no_of_dogs)
 
 dog2 = Dog('Bella')
 #print no of dogs, should be 2
-print('Number of dogs :', dog.no_of_dogs)
+print('Number of dogs :', Dog.no_of_dogs)
 
 dog3 = Dog('Max')
 #print no of dogs, should be 3
-print('Number of dogs :', dog.no_of_dogs)
+print('Number of dogs :', Dog.no_of_dogs)
 
 
 ```
