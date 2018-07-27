@@ -77,7 +77,7 @@ dog2 = Dog()
 dog2.name = 'Rambo'
 
 #Class variable breed is updated to Poodle, this will update in both instances
-dog.breed = 'Poodle' \
+Dog.breed = 'Poodle' \
             ''
 print('Breed of Dog1 : ' + dog1.breed)
 print('Name of Dog1 : ' + dog1.name)
