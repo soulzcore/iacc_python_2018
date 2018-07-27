@@ -66,6 +66,7 @@ class dog:
     #Creating a constructor which will be called everytime a new object is created
     def __init__(self):
         print('Dog Object created')
+
 dog1 = dog()
 
 #New instance variable name created for dog1
@@ -127,15 +128,15 @@ print('Number of dogs :', dog.no_of_dogs)
 ```
 
 **Create a class to define a car with the following :
- *The class should have atleast 1 class variable ( think of an attribute which remains the same across all cars ).
- *A car should require the attributes ‘Make,Model,Year,Color, Engine’
- *Create a method ‘start’ to start the car. When the method is called, the car’s ‘status’ attribute should be ‘ON’
- *Create a method ‘accelerate’, which should take the argument speed. When the method is called the attribute ‘speed’ should increase by the specified speed passed to the method
- *Create a method ‘decelerate’, which should take the argument speed. When the method is called the attribute ‘speed’ should decrease by the specified speed passed to the method
- *Create a method ‘break’. When called the speed attribute should become 0
- *Create a method ‘Off’. When called the car’s ‘status’ attribute should become ‘FF’
- *Rules to implement ( make use of try, except or if else statements ) :
- *The car cant be started if its already ON
- *The car cant accelerate, decelerate, break or turned OFF if its not ON
- *Maximum speed of the car is 130
- *The car cant decelerate if the speed is 0**
+ * The class should have atleast 1 class variable ( think of an attribute which remains the same across all cars ).
+ * A car should require the attributes ‘Make,Model,Year,Color, Engine’
+ * Create a method ‘start’ to start the car. When the method is called, the car’s ‘status’ attribute should be ‘ON’
+ * Create a method ‘accelerate’, which should take the argument speed. When the method is called the attribute ‘speed’ should increase by the specified speed passed to the method
+ * Create a method ‘decelerate’, which should take the argument speed. When the method is called the attribute ‘speed’ should decrease by the specified speed passed to the method
+ * Create a method ‘break’. When called the speed attribute should become 0
+ * Create a method ‘Off’. When called the car’s ‘status’ attribute should become ‘FF’
+ * Rules to implement ( make use of try, except or if else statements ) :
+ * The car cant be started if its already ON
+ * The car cant accelerate, decelerate, break or turned OFF if its not ON
+ * Maximum speed of the car is 130
+ * The car cant decelerate if the speed is 0**

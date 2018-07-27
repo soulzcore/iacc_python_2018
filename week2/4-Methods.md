@@ -10,7 +10,7 @@
 
 > Self in python classes refer to the instance or the object created from the class
 
-> For Example, in the example from the previous slide dog1 and dog2 are 2 objects, self in dog1 refers to dog1 and self in dog2 refers to dog2
+> For Example, in the example from the previous slide ```dog1``` and ```dog2``` are 2 objects, ```self``` in ```dog1``` refers to dog1 and ```self``` in ```dog2``` refers to dog2
 
 > When calling a method, the argument self need not be passed
 
@@ -20,8 +20,8 @@ def methodName(self,arg1,arg2..):
      #Method logic
      statemet1;
      statement2;
-     #Call the method methodName
-     methodName(arg1,arg2)
+#Call the method methodName after instantiating the class
+methodName(arg1,arg2)
 ```
 
 **Example**

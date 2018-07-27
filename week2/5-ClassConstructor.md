@@ -4,11 +4,11 @@
 
 > Having a constructor is optional, Python will only call it if it exists
 
-> Constructor method is always named __init__
+> Constructor method is always named ```__init__```
 
 > Contructor can take input arguments just like regular methods
 
-> Constructor will always have self as a parameter like methods : __init__(self)
+> Constructor will always have self as a parameter like methods : ```__init__(self)```
 
 **Usage**
 ```python
