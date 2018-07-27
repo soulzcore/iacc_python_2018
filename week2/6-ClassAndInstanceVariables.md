@@ -19,7 +19,7 @@
 **Example**
 
 ```python
-class dog :
+class Dog :
    #Class variable
    breed = 'Poodle'
 
@@ -27,13 +27,13 @@ class dog :
 print(dog.breed)
 
 #Create new instance dog1
-dog1 = dog()
+dog1 = Dog()
 
 #Access variable breed via dog1 instance name
 print(dog1.breed)
 
 #Create new instance dog2
-dog2 = dog()
+dog2 = Dog()
 
 #Access variable breed via dog2 instance name
 print(dog2.breed)
