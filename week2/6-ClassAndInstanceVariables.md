@@ -58,7 +58,7 @@ print(dog2.breed)
 
 ```python
 #Create class dog, this can be used to create multiple dog objects
-class dog:
+class Dog:
     'This class represents a dog'
     #Class variable or attribute name to hold the dogs name
     breed = 'Bulldog'
@@ -67,11 +67,11 @@ class dog:
     def __init__(self):
         print('Dog Object created')
 
-dog1 = dog()
+dog1 = Dog()
 
 #New instance variable name created for dog1
 dog1.name = 'Rocky'
-dog2 = dog()
+dog2 = Dog()
 
 #New instance variable name created for dog2
 dog2.name = 'Rambo'
@@ -94,7 +94,7 @@ print('Name of Dog2 : ' + dog2.name)
 ```python
 
 #Create class dog, this can be used to create multiple dog objects
-class dog:
+class Dog:
     'This class represents a dog'
     #Class variable or attribute name to hold the dogs name
     breed = 'Bulldog'
@@ -112,15 +112,15 @@ class dog:
 assert dog.no_of_dogs == 0, 'Number of dogs are not 0'
 
 #Create dog1
-dog1 = dog('Buddy')
+dog1 = Dog('Buddy')
 #print no of dogs, should be 1
 print('Number of dogs :', dog.no_of_dogs)
 
-dog2 = dog('Bella')
+dog2 = Dog('Bella')
 #print no of dogs, should be 2
 print('Number of dogs :', dog.no_of_dogs)
 
-dog3 = dog('Max')
+dog3 = Dog('Max')
 #print no of dogs, should be 3
 print('Number of dogs :', dog.no_of_dogs)
 
