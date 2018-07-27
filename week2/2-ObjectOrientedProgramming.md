@@ -12,9 +12,3 @@
 
 > OOP Languages : C++, Java, Python, C#,
 
-
-> OOP Languages : C++, Java, Python, C# etc..
-
-> Procedural Languages : C, COBOL, Matlab etc..
-
-> Functional Languages : ERLang, Haskell, Clojure etc..
