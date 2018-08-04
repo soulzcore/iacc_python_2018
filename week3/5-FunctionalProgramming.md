@@ -4,7 +4,7 @@
 
 > Functional programming is an another way to write code.
 
-> Python natively supports Functional programming
+> Python supports Functional programming in addition to Object Oriented
 
 > In Functional Programming, the code logic is written around Functions
 
