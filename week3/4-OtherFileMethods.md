@@ -13,16 +13,16 @@
 
 ```python
 
-#Open testFile2.txt in write mode, overwrite if exists, create if doesnt exist
+#Open testFile2.txt in write mode, overwrite if exists, create if doesnt exist
 f = open('testFile1.txt','a')
 
-#String to be written in the new file, \n creates a new line
+#String to be written in the new file, \n creates a new line
 string1 = 'This will be added to the end of the file'
 
 #Write to the file
 print(f.write(string1))
 
-#Closing the file connection
+#Closing the file connection
 f.close()
 
 #The file read will fail with Value Error
@@ -54,7 +54,7 @@ f.seek(postion, starting_point)
 **Example**
 
 ```python
-#Open a file for reading
+#Open a file for reading
 f = open('testFile1.txt','r')
 
 #Go to 10th byte from the start of the file
@@ -91,19 +91,19 @@ f.tell()
 
 ```python
 
-#Open a file for reading
+#Open a file for reading
 f = open('testFile1.txt','rb')
 
-#Go to 10th byte from the start of the file
+#Go to 10th byte from the start of the file
 f.seek(10,0)
 
 #Print the current position, which is 10 after the seek
 print(f.tell())
 
-#Go to the 10th byte from the end of the document
+#Go to the 10th byte from the end of the document
 f.seek(10,2)
 
-#This will return the current position, which is total bytes - 10 after the previous seek
+#This will return the current position, which is total bytes - 10 after the previous seek
 print(f.tell())
 
 ```
@@ -111,9 +111,10 @@ print(f.tell())
 
 # Exercises
 
-**Write a program to create a new file named "newFile.txt" and write atleast 5 lines of text.Read the "newFile.txt" and copy the contents of the file into another file named "copyOfnewFile.txt"	***
+**Write a program to create a new file named "newFile.txt" and write atleast 5 lines of text.
+Read the "newFile.txt" and copy the contents of the file into another file named "copyOfnewFile.txt"**
 
 
 
-**Download the file from the following URL to your computer : http://media.pearsoncmg.com/bc/bc_production/media_development/media_manager_ircd_cdroms/MM_readme.txt
-Write a program to read the file and count the number of words in the file.**
+**Download the file from the following URL to your computer : http://media.pearsoncmg.com/bc/bc_production/media_development/media_manager_ircd_cdroms/MM_readme.txt
+Write a program to read the file and count the number of words in the file.**

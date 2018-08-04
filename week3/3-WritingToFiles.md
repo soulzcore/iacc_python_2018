@@ -34,14 +34,14 @@ f.writelines(stringList)
 
 ```python
 
-#Open testFile2.txt in write mode, overwrite if exists, create if doesnt exist
+#Open testFile2.txt in write mode, overwrite if exists, create if doesnt exists
 f = open('testFile1.txt','w')
 
-#String to be written in the new file
+#String to be written in the new file
 fileContent = 'This is a test file'
 
-#Write fileContent to the file
-print(f.write(fileContent))
+#Write fileContent to the file
+f.write(fileContent)
 
 ```
 
@@ -49,19 +49,19 @@ print(f.write(fileContent))
 
 ```python
 
-#Open testFile2.txt in write mode, overwrite if exists, create if doesnt exist
+#Open testFile2.txt in write mode, overwrite if exists, create if doesnt exist
 f = open('testFile1.txt','w')
 
-#String to be written in the new file, \n creates a new line
+#String to be written in the new file, \n creates a new line
 string1 = 'This is 1st line\n'
 string2 = 'This is a 2nd line\n'
 string3 = 'This is 3rd Line\n'
 
-#Create a list of string1, string2, string3
+#Create a list of string1, string2, string3
 stringList = [string1,string2,string3]
 
-#Write list of strings in stringList to the file
-print(f.writelines(stringList))
+#Write list of strings in stringList to the file
+f.writelines(stringList)
 
 ```
 
@@ -77,7 +77,7 @@ f = open('testFile1.txt','a')
 #String to be written in the new file, \n creates a new line
 string1 = 'This will be added to the end of the file'
 
-#Write to the fileprint
+#Write to the file
 f.write(string1)
 
 ```

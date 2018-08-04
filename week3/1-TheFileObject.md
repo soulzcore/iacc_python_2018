@@ -71,12 +71,19 @@ f = open('fileName','Mode',Buffering)
 **Common Modes ( lowercase )**
 
 > r : Read Only
+
 > w : Writing a file only
+
 > rb : read only in binary format
+
 > r+ : read and write
-> r+ : write and read. Overwrites if file exists, creates if it doesn’t.
+
+> r+ : write and read. Overwrites if file exists, creates if it doesn’t
+
 > a : Append ( add to the end of file )
+
 > rb+ : read and write in binary format
+
 > wb : write in binary format
 
 
