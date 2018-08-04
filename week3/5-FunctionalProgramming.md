@@ -57,7 +57,7 @@ sum(5,4)
 
 ```Python
 
-lambda inputs : return statement
+lambda inputs : expression
 
 ```
 
