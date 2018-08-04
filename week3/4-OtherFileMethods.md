@@ -111,10 +111,10 @@ print(f.tell())
 
 # Exercises
 
-**Write a program to create a new file named "newFile.txt" and write atleast 5 lines of text.
+1. **Write a program to create a new file named "newFile.txt" and write atleast 5 lines of text.
 Read the "newFile.txt" and copy the contents of the file into another file named "copyOfnewFile.txt"**
 
 
 
-**Download the file from the following URL to your computer : http://media.pearsoncmg.com/bc/bc_production/media_development/media_manager_ircd_cdroms/MM_readme.txt
+2. **Download the file from the following URL to your computer : http://media.pearsoncmg.com/bc/bc_production/media_development/media_manager_ircd_cdroms/MM_readme.txt
 Write a program to read the file and count the number of words in the file.**
