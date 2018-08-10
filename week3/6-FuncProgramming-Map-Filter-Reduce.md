@@ -1,4 +1,4 @@
-# MAP
+# Map
 
 > Map is a built-in function which accepts one or more iterable data type ( list, tuple etc..) and a function as input arguments/parameters
 
