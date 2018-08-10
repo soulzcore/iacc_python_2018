@@ -65,13 +65,13 @@ print(f.read())
 f = open('testFile.txt','r')
 
 #Read and print the 1st line
-print f.readline()
+print(f.readline())
 
 #Read and print the 2nd line
-print f.readline()
+print(f.readline())
 
 #Read and print the 3rd line
-print f.readline()
+print(f.readline())
 ```
 
 **Example**
