@@ -156,7 +156,7 @@ print(newListA)
 > The function which is passed is applied to the first 2 elements in the given list resulting in a single output, the function is again applied to the output and the following element in the list. This process is repeated until there is only 1 element remaining
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Filter Function")
+![alt text](https://github.com/soulzcore/iacc_python_2018/raw/master/week3/images/filter.png "Filter Function")
 
 
 
