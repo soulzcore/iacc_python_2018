@@ -205,7 +205,9 @@ print(df.describe())
 **Sample Attributes**
 
 > shape – Returns a tuple of number of rows and columns
+
 > size – Returns the number of items in the Series
+
 > values – Returns the series as an ndarray ( list like )
 
 
