@@ -49,6 +49,8 @@ f.seek(postion, starting_point)
 
 > Starting_point : Optional, This can be 0,1 or 2. 0 to start from the beginning, 1 to use current position and 2 to start from the end. Defaults to 0. The file has to be opened in binary format ( using b ) to be able to seek from the end.
 
+> Use negative numbers to seek to the left(reverse)
+
 
 
 **Example**
@@ -101,7 +103,7 @@ f.seek(10,0)
 print(f.tell())
 
 #Go to the 10th byte from the end of the document
-f.seek(10,2)
+f.seek(-10,2)
 
 #This will return the current position, which is total bytes - 10 after the previous seek
 print(f.tell())
