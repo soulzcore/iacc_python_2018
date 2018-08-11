@@ -153,7 +153,7 @@ print(newListA)
 
 > The passed function should accept 2 arguments and return a single value
 
-> The function which is passed is applied to the first 2 elements in the given list resulting in a single output, the function is again applied to the output and the following element in the list. This process is repeated until there is only 1 element remaining
+> The function which is passed is applied to the first 2 elements in the given list resulting in a single output, the function is again applied to the output from the previous operation and the next item in the list. This process is repeated until there is only 1 item remaining
 
 > The reduce function is available in the functools built in module. ```from functools import reduce``` imports the function into the current file.
 
