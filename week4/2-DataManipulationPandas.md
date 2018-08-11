@@ -4,7 +4,7 @@
 
 > Pandas is a python library or package commonly used for data analysis and manipulation
 
-> It is extremely powerful an flexible
+> It is extremely powerful and flexible
 
 > It is being widely adopted in the Data Engineering and Data Science community
 
