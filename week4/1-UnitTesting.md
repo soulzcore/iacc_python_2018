@@ -11,9 +11,9 @@
 **Types Of Testing**
 
 > The most common categories of testing are :
-> Unit Testing
-> Integration Testing
-> User Acceptance Testing
+> * Unit Testing
+> * Integration Testing
+> * User Acceptance Testing
 
 **Unit Testing**
 
