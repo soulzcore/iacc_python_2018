@@ -166,7 +166,7 @@ print(newListA)
 
 ```Python
 
-filter(function, iterable)
+reduce(function, iterable)
 
 ```
 
