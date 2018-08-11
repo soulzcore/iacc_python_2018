@@ -30,7 +30,7 @@
 
 import pandas as pd
 
-# Create a variable with the csv filename we would like to analyze
+# Create a variable with the csv filename we would like to analyze
 filename = '/Users/mohammed/Downloads/Police_incidents.csv'
 
 # Create a data frame from the csv file
@@ -42,7 +42,7 @@ print(df.columns.values.tolist())
 
 
 
-# Create a new dataframe df1 from selected columns of interest from the original df
+# Create a new dataframe df1 from selected columns of interest from the original df
 df1 =  df[['Year of Incident','Type of Incident','Call (911) Problem','Type of Location','Type of Property','Incident Address','Zip Code','City','State','Date of Report','UCR Offense Name','Call Received Date Time','Call Dispatch Date Time']]
 
 

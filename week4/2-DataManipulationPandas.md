@@ -155,13 +155,13 @@ print(df['u'])
 ```python
 import pandas as pd
 
-#Create a dict of lists, numbers and words are keys
+#Create a dict of lists, numbers and words are keys
 d = {
     'numbers' : [4, 2, 1, 19],
      'words' : ['a', 'f', 'c', 'z']
      }
 
-#Create a dataframe from d
+#Create a dataframe from d
 df = pd.DataFrame(d)
 
 #Print the dataframe
@@ -175,28 +175,28 @@ print(df)
 
 import pandas as pd
 
-#Create a dict of lists, numbers and words are keys
+#Create a dict of lists, numbers and words are keys
 d = {
     'numbers' : [4, 2, 1, 19],
      'words' : ['a', 'f', 'c', 'z']
      }
 
-#Create a dataframe from d
+#Create a dataframe from d
 df = pd.DataFrame(d)
 
 #Print the dataframe
 print(df)
 
-#Sort the dataframe by the words column
+#Sort the dataframe by the words column
 print(df.sort_values(by='words'))
 
-#Sort by the numbers column in descending order
+#Sort by the numbers column in descending order
 print(df.sort_values(by='numbers',ascending=False))
 
-#Print the number or rows and columns
+#Print the number or rows and columns
 print(df.shape)
 
-#Print descriptive statistics
+#Print descriptive statistics
 print(df.describe())
 
 ```

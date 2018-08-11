@@ -31,7 +31,9 @@
 
 > Selenium can be installed from pypi using pip. Run the following command in the command prompt:
 
-``` pip install selenium
+```
+ pip install selenium
+
 ```
 
 
@@ -68,10 +70,10 @@ url = 'https://www.expedia.com/Hotels'
 browser.get(url)
 
 
-#Find the destination element's XPATH
+#Find the destination element's XPATH
 destination = browser.find_element_by_xpath('//*[@id="hotel-destination-hlp"]')
 
-#Enter Dallas in the destination field
+#Enter Dallas in the destination field
 destination.send_keys('Dallas')
 
 ```
