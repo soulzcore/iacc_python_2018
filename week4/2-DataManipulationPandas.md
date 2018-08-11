@@ -8,7 +8,7 @@
 
 > It is being widely adopted in the Data Engineering and Data Science community
 
-> Pandas add support different types of data, some common types are:
+> Pandas add support to different data types, some common types are:
 > * Tabular data
 > * Time series data
 > * Matrices
