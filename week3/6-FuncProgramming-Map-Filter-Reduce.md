@@ -155,6 +155,8 @@ print(newListA)
 
 > The function which is passed is applied to the first 2 elements in the given list resulting in a single output, the function is again applied to the output and the following element in the list. This process is repeated until there is only 1 element remaining
 
+> The reduce function is available in the functools built in module. ```from functools import reduce``` imports the function into the current file.
+
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Filter Function")
 
