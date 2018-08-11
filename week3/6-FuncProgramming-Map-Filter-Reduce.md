@@ -1,4 +1,4 @@
-# MAP
+# Map
 
 > Map is a built-in function which accepts one or more iterable data type ( list, tuple etc..) and a function as input arguments/parameters
 
@@ -158,7 +158,7 @@ print(newListA)
 > The reduce function is available in the functools built in module. ```from functools import reduce``` imports the function into the current file.
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Filter Function")
+![alt text](https://github.com/soulzcore/iacc_python_2018/raw/master/week3/images/filter.png "Filter Function")
 
 
 
