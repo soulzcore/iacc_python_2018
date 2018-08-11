@@ -1,6 +1,6 @@
 # Data Manipulation & Analysis
 
-#Pandas
+# Pandas
 
 > Pandas is a python library or package commonly used for data analysis and manipulation
 
@@ -8,7 +8,7 @@
 
 > It is being widely adopted in the Data Engineering and Data Science community
 
-> Pandas add support different types of data, some common types are :
+> Pandas add support different types of data, some common types are:
 > * Tabular data
 > * Time series data
 > * Matrices
@@ -33,7 +33,7 @@ pip install pandas
 
 ```
 
-**Series**
+# Series
 
 > Series are one dimensional arrays ( ndarrays )
 
@@ -45,8 +45,7 @@ pip install pandas
 
 > Index can be pre defined, added later, changed or defaulted to a sequence of numbers
 
-
->> Series picture
+![alt text](https://github.com/soulzcore/iacc_python_2018/raw/master/week4/images/series.png "Pandas Series")
 
 
 **Series Example**
@@ -141,10 +140,13 @@ print(df['u'])
 
 
 
->> IMAGE 1
+![alt text](https://github.com/soulzcore/iacc_python_2018/raw/master/week4/images/dataframes.png "Dataframes")
 
 
->> IMAGE 2
+![alt text](https://github.com/soulzcore/iacc_python_2018/raw/master/week4/images/dataframes1.png "Dataframes")
+
+
+
 
 
 
