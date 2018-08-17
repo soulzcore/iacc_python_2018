@@ -4,7 +4,7 @@
 
 > Object Relationship Mapping(ORM) is the technique of being able to create, query and manipulate data in SQl Databases ( or other data stores ) using Object Oriented programming principles
 
-> Data in a SQL Database like ( sqllite, MySql, MSSql ) is stored in tables as columns and rows
+> Data in a SQL databases like ( sqllite, MySql, MSSql ) is stored in tables as columns and rows
 
 > SQL queries are used to access and manipulate the data in the tables
 
@@ -23,10 +23,12 @@
 
 
 **Engine**
->  The starting point of the application
+>  Engine is the starting point of the application
 
-> **To use the engine with MS SQL server you will need pymssql package installed. Please follow the instructions here :**
+> ** Note : To use the engine with MS SQL server you will need pymssql package installed. Please follow the instructions here :**
 https://docs.microsoft.com/en-us/sql/connect/python/pymssql/step-1-configure-development-environment-for-pymssql-python-development?view=sql-server-2017
+
+> A new engine object is created via the create_engine class by passing the database connection string ( this string is specific to the DB type)
 
 **Usage**
 
@@ -95,7 +97,7 @@ engine = create_engine('mssql+pymssql://username:password@localhost:1433', echo=
 
 > Table refers to the table in the database
 
-> Mapper refers to the mapping between the table and the python class/object
+> Mapper refers to the mapping between the table/columns and the python class/object
 
 > SQL Alchemy provides a declarative base which allows all of the three to be expressed at once
 
@@ -118,7 +120,7 @@ Base = declarative_base()
 # Student class inherits from the declarative_base(Base) class
 class Student(Base):
 
-    # This will be mapped to the table name  
+    # This will be mapped to the table name
     __tablename__ = "students"
 
     # The following class variables/attributes will be mapped to the column names
@@ -220,7 +222,7 @@ CREATE TABLE Student (
 **Usage**
 
 ```Python
-# create a configured "Session" class
+# create a configured "Session" class and bind it to the engine
 Session = sessionmaker(bind=engine)
 
 # create a Session
