@@ -1,4 +1,4 @@
-#Sql Alchemy
+# Sql Alchemy
 
 > SQL Alchemy is the Object Relationship Mapper for Python
 
@@ -28,6 +28,7 @@
 > **To use the engine with MS SQL server you will need pymssql package installed. Please follow the instructions here :**
 https://docs.microsoft.com/en-us/sql/connect/python/pymssql/step-1-configure-development-environment-for-pymssql-python-development?view=sql-server-2017
 
+**Usage**
 
 ```python
 from sqlalchemy import create_engine
