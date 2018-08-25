@@ -1,22 +1,29 @@
 # Data Visualization
 
-> Data Visualization is the rending of data in a graphical or pictoral format
+> Data Visualization is the rending of data in a graphical or pictorial format
+
 > It involves using visual elements like charts, maps, graphs etc..
-> Data Visualization is the easiest and most popular way of identifying and understanding trend, patterns, outlier etc.. in the data
+
+> Data Visualization is the easiest and most popular way of identifying and understanding trend, patterns, outliers etc.. in the data
+
 > Finding information ( like trends) in a massive spreadsheet might be a very difficult task, but if the data from the spreadsheet can be visualized trends can be spotted without much effort
+
 > In the increasingly data driven world, data visualization is a very important skill to have
 
 
 **Data Visualization in Python**
 
 > There multiple libraries available for Data Visualization
+
 > Some popular ones are : matplotlib, plotly, seaborn, bokeh
 
 
 **Matplotlib**
 
 > matplotlib is one of the oldest and most popular library
+
 > Pandas is natively integrated with matplotlib
+
 > Pandas data structures like Series and Dataframes can be visualized using matplotlib
 
 **Installation**

@@ -1,10 +1,13 @@
 # Virtual Environments
 
 > Python today has multiple different versions used in production and lots of different libraries
+
 > Based on the application and user preference a certain combination of python and library versions might be needed which might not work for a different application
 
 > In python a Virtual Environment can be created which is isolated and functions as its own ecosystem of packages
+
 > Multiple Virtual Environments can be created on the same machine
+
 > Each Virtual Environment will isolated from the others and will not cause any conflicts
 
 > In essence a virtual environment is a directory where the required python version and packages are copied.  
@@ -87,7 +90,7 @@ source bin/activate
 
 ```
 
-> After an Environment is activated, any package versions can be installed using pip without having to worry about conflicts with other versions 
+> After an Environment is activated, any package versions can be installed using pip without having to worry about conflicts with other versions
 
 **Deactivating**
 

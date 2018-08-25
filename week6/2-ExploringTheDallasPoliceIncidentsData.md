@@ -196,11 +196,49 @@ plt.show()
 
 
 
-**Example - Zip COde analysis**
+**Example - Zip Code analysis**
 
 ```python
 
+import pandas as pd
+import matplotlib.pyplot as plt
 
+
+#pd.set_option('display.max_columns', 500)
+
+
+# Create a variable with the csv filename we would like to analyze
+filename = '/Users/mohammed/Downloads/Police_incidents.csv'
+
+# Create a data frame from the csv file
+df = pd.read_csv(filename,header=0, index_col = False)
+
+# Create a new dataframe df1 from selected columns of interest from the original df
+df1 =  df[['Year of Incident','Type of Incident','Call (911) Problem','Type of Location','Type of Property','Incident Address','Zip Code','City','State','Date of Report','UCR Offense Name','Call Received Date Time','Call Dispatch Date Time']]
+
+#Convert Call Received Date Time to date time object
+df1['Date of Report'] = pd.to_datetime(df1['Call Received Date Time'])
+
+
+# Create a new dataframe inc_group by Grouping incidents and calculating the number or size of each type of incident, rename the index to count
+inc_group =  df1.groupby('Zip Code').size().reset_index(name='count')
+
+
+# Sort the new dataframe in descending order, highest number incidents first
+inc_group = inc_group.sort_values('count', ascending=False)
+
+
+inc_group.set_index('Zip Code', inplace=True)
+
+#Print the top 5
+#print(inc_group.head(5))
+
+#Plot the dataframe
+inc_group.plot(kind='pie', y='count')
+
+
+#Render it via PyCharm
+plt.show()
 
 
 ```
