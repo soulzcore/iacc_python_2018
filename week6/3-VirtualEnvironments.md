@@ -52,9 +52,9 @@ python3 -m venv environment1
 │   ├── pip
 │   ├── pip3
 │   ├── pip3.7
-│   ├── python -> python3.7
-│   ├── python3 -> python3.7
-│   └── python3.7 -> /Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7
+│   ├── python
+│   ├── python3
+│   └── python3.7 
 ├── include
 ├── lib
 │   └── python3.7
